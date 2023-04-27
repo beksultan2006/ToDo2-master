@@ -6,12 +6,7 @@
     tools:context=".ui.fragment.profile.ProfileFragment">
 
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Поставьте хороший балл"
-        android:textStyle="bold"
-        android:textSize="40sp"/>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
