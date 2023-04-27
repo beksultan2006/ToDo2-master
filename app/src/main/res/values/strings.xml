@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ToDo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="to_do_list">To-do list!</string>
+    <string name="here_you_can_write_down_n_something_important_nor_make_a_schedule_for_tomorrow">Here you can write down something important or make a schedule for tomorrow:)</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+</resources>
