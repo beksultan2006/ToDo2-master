@@ -12,22 +12,13 @@
         android:layout_height="match_parent" />
 
 
-    <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
-        android:id="@+id/dots_indicator"
-        android:layout_width="wrap_content"
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="160dp"
-        android:layout_gravity="center"
-        app:dotsColor="@color/color_main"
-        app:dotsCornerRadius="8dp"
-        app:dotsSize="16dp"
-        app:dotsSpacing="4dp"
-        app:dotsWidthFactor="2.5"
-        app:selectedDotColor="@color/teal_350"
-        app:progressMode="true"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:tabBackground="@drawable/selector_tab"
+        app:tabGravity="center"
+        app:tabIndicatorHeight="0dp"
+        android:id="@+id/dots_indicator"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

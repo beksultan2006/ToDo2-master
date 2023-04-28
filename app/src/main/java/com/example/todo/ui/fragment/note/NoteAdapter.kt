@@ -45,7 +45,6 @@ class NoteAdapter : Adapter<NoteAdapter.NoteViewHolder>() {
             binding.itemTvDes.text = model.description
             binding.itemTvDate.text = model.date
 
-
         }
     }
 }
